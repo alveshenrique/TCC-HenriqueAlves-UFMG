@@ -1,0 +1,17 @@
+function chksm = DynChecksum(id,ln,inst,params)
+%DYNCHECKSUM computes the checksum for a Dynamixel packet.
+%   DynChecksum(id,ln,inst,addr,params) returns the checksum for a
+%   Dynamixel packet.
+%   Input arguments:
+%       id: Device ID
+%       ln: Packet length
+%       inst: Instruction
+%       params: Instruction parameters
+
+% Ernesto Lana
+% Version 1.0
+% July, 2012
+
+psum = id + ln + inst + sum(params);  % Partial sumation
+psum = bitand(255,psum);  % Considers the lower byte
+chksm = 255 - psum;  % Checksum computation
