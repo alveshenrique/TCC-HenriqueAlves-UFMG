@@ -3,7 +3,7 @@ Repositório contendo o código completo utilizado para o trabalho de conclusão
 
 Este projeto possui a seguinte estrutura:
 
--- A pasta "console" possui o código fonte em C++ que utiliza a API fornecida pela Microchip. Este código foi editado a partir do Demo de mesmo nome, que pode ser encontrado em: http://www.microchip.com/design-centers/touch-input-sensing/gestic-technology/getting-started
+-- A pasta "console\app\Windows" possui o código fonte em C++ que utiliza a API fornecida pela Microchip. Este código foi editado a partir do Demo de mesmo nome, que pode ser encontrado em: http://www.microchip.com/design-centers/touch-input-sensing/gestic-technology/getting-started
 Este código foi criado utilizando o Visual Studio 2015 Community da Microsoft (https://www.visualstudio.com/pt-br/products/visual-studio-community-vs.aspx).
 Para seu correto funcionamento, o arquivo "engine.h" do MATLAB de sua escolha deve ser copiado e colado no subdiretório "Dynamic-Debug", que é gerado automaticamente pelo Visual Studio ao fazer "build" do projeto.
 
@@ -13,3 +13,5 @@ Para seu correto funcionamento, o arquivo "engine.h" do MATLAB de sua escolha de
   
   
 Meu contado: alveshenrique@ymail.com
+
+Repositório: https://github.com/alveshenrique/TCC-HenriqueAlves-UFMG
